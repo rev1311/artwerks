@@ -11,7 +11,7 @@ app.use(morgan('tiny'));
 app.get('/', (req, res) => {
     const data = {
         user: "mike",
-        age: "old enough"
+        age: "old enough to know better"
     }
     res.json(data);
 });
