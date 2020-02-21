@@ -24,4 +24,7 @@ app.get('/api/user', (req, res) => {
     res.json(data);
 });
 
+app.post('/api/newuser', (req, res) => {
+    
+})
 app.listen(PORT, console.log(`Server connected @ ${PORT}`));

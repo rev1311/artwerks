@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/rev1311/artwerks/issues"
   },
-  "homepage": "https://github.com/rev1311/artwerks#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "concurrently": "^5.1.0",
