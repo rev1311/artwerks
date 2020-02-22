@@ -1,30 +1,8 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const morgan = require('morgan');
-const path = require('path');
+const express = require('express'),
+    app = express(),
+    PORT = process.env.PORT || 3001;
 
-const app = express();
-const PORT = process.env.PORT || 3001;
+app.use(require('./client/routes'));
+app.use(express.static(__dirname + '/public'));
 
-app.use(morgan('tiny'));
-
-app.get('/', (req, res) => {
-    const data = {
-        user: "mike",
-        age: "old enough to know better"
-    }
-    res.json(data);
-});
-
-app.get('/api/user', (req, res) => {
-    const data = {
-        user: "mp",
-        age: "like wine... vinegar"
-    }
-    res.json(data);
-});
-
-app.post('/api/newuser', (req, res) => {
-    
-})
-app.listen(PORT, console.log(`Server connected @ ${PORT}`));
+app.listen(PORT, console.log(`Server connected @ ${PORT}`)); 
