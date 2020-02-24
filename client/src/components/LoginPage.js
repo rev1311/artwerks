@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './LoginPage.scss';
+
+
 
 export class LoginPage extends Component {
     render() {
@@ -20,8 +24,10 @@ export class LoginPage extends Component {
                             <label for="password" className="form__label">password</label>
                         </div>
                         <div>
-                            <Button variant="dark">Join</Button>
-                            <Button variant="dark">Log In</Button>
+                            <Router>
+                            <Link to="/Main"><Button variant="dark">Join</Button></Link>
+                            <Link to="/Main"><Button variant="dark">Log In</Button></Link>
+                            </Router>
                         </div>
                         </div>
                     </Col>
