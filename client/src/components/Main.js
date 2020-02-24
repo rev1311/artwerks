@@ -8,10 +8,17 @@ export class Main extends Component {
         return (
             <Container>
                 <Row>
-                    <Col md={12}>
+                    <Col md={2}>
+                        <div>
+                        </div>                        
+                    </Col>
+                    <Col md={8}>
                         <div>
                             <ArtistCard />
-                            
+                        </div>                        
+                    </Col>
+                    <Col md={2}>
+                        <div>
                         </div>                        
                     </Col>
                 </Row>
