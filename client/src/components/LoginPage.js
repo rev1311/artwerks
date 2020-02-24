@@ -13,10 +13,10 @@ export class LoginPage extends Component {
 
                         <div className="form__group field loginwindow">
                             <input type="input" className="form__field" placeholder="Name" name="name" id='name' required />
-                            <label for="name" className="form__label">userame</label>
+                            <label for="name" className="form__label">username</label>
                         </div>
                         <div className="form__group field loginwindow">
-                            <input type="input" className="form__field" placeholder="Password" name="password" id='password' required />
+                            <input type="password" className="form__field" placeholder="Password" name="password" id='password' required />
                             <label for="password" className="form__label">password</label>
                         </div>
                         <div>
