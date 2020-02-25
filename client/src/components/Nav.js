@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Routes from './Routes';
+import { Navbar, Container, Image } from 'react-bootstrap';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 export class Nav extends Component {
     render() {
@@ -10,11 +9,12 @@ export class Nav extends Component {
                 <Navbar fixed="bottom" expand="md" variant="dark" bg="dark">
                     <Container>
                         <Router>
-                            <Navbar.Brand href="/Main"><img src="../../public/assets/logo1.png" /></Navbar.Brand>
-                            <Nav className="mr-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#features">Features</Nav.Link>
-                                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Navbar.Brand href="/LoginPage">Login/Signup</Navbar.Brand>
+                            <Nav className="mx-auto">
+                                <Nav.Link href="/Main"><Image src="../../public/assets/logo1.png" /></Nav.Link>
+                            </Nav>
+                            <Nav className="ml-auto">
+                                <Nav.Link href="#">Menu</Nav.Link>
                             </Nav>
                         </Router>
                     </Container>
