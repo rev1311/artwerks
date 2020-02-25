@@ -10,11 +10,10 @@ export class LoginPage extends Component {
     render() {
         return (
             <Container>
-                <Routes />
                 <Row>
                     <Col md={12}>
                         <div className="loginwindow">
-                            <img src="" alt="ArtWerkS Logo" />
+                            <img src="./assets/logo1.png" alt="ArtWerkS Logo" />
 
                         <div className="form__group field loginwindow">
                             <input type="input" className="form__field" placeholder="Name" name="name" id='name' required />
