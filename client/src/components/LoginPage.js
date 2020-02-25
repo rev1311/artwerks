@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Main from './Main';
 import './LoginPage.scss';
 
 
@@ -24,10 +26,7 @@ export class LoginPage extends Component {
                             <label for="password" className="form__label">password</label>
                         </div>
                         <div>
-                            <Router>
-                            <Link to="/Main"><Button variant="dark">Join</Button></Link>
-                            <Link to="/Main"><Button variant="dark">Log In</Button></Link>
-                            </Router>
+                            <Button variant="dark" href="/Main">Join</Button>
                         </div>
                         </div>
                     </Col>
