@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import artists from '../artists.json';
 import { Card } from 'react-bootstrap';
 
-export class ArtistCard extends Component {
+class ArtistCard extends Component {
     state = {
         id: 0,
         name: "",
