@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import artists from '../artists.json';
+import mainseeds from '../mainseeds.json';
 import { Card } from 'react-bootstrap';
 
 class ArtistCard extends Component {
@@ -7,13 +7,14 @@ class ArtistCard extends Component {
         id: 0,
         name: "",
         img: "",
+        alt: "",
         title: "",
         desc: "",
-        artists
+        mainseeds
     }
 
     render() {
-        const artworks = [...this.state.artists];
+        const artworks = [...this.state.mainseeds];
 
         return (
             artworks.map(art => {
