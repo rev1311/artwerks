@@ -25,7 +25,7 @@ export class LoginPage extends Component {
                         </div>
                         <div>
                             <Router>
-                            <Link to="./Main">Join</Link>
+                            <Link to="/Main">Join</Link>
                             </Router>
                         </div>
                         </div>
