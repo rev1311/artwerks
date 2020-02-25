@@ -15,6 +15,7 @@ class ArtistCard extends Component {
 
     render() {
         const artworks = [...this.state.mainseeds];
+        artworks.sort(() => Math.random() - 0.5);
 
         return (
             artworks.map(art => {
@@ -24,11 +25,8 @@ class ArtistCard extends Component {
                 <Card className="bg-dark text-white" key={art.id}>
                     <Card.Img src={art.img} alt={art.alt} />
                     <Card.ImgOverlay>
-                    <Card.Title>Title:{art.title}</Card.Title>
-                    <Card.Text>
-                    Description:{art.desc}
-                    </Card.Text>
-                    <Card.Text>By Artist:{art.name}</Card.Text>
+                    <Card.Text>{art.title}</Card.Text>
+                    <Card.Title>Artist: {art.name}</Card.Title>
                     </Card.ImgOverlay>
                 </Card>
                 
