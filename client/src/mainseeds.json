@@ -5,6 +5,46 @@
         "img": "./assets/g23d.png",
         "alt": "retro 3d landscape",
         "title": "Stuff N' Thangs",
-        "desc": "just some stuff... and thangs."
+        "desc": ""
+    },
+    {
+        "id": 2,
+        "name": "David Ho",
+        "img": "./assets/dh1.jpg",
+        "alt": "",
+        "title": "Contemplations 6",
+        "desc": ""
+    },
+    {
+        "id": 3,
+        "name": "Chris Mars",
+        "img": "./assets/chrismarsDayforNight.jpg",
+        "alt": "",
+        "title": "Day for Night",
+        "desc": ""
+    },
+    {
+        "id": 4,
+        "name": "Brom",
+        "img": "./assets/BromColeHorse.jpg",
+        "alt": "",
+        "title": "Long Horse",
+        "desc": ""
+    },
+    {
+        "id": 5,
+        "name": "Alessandro Bavari",
+        "img": "./assets/alessandrobavariCornucopa.jpg",
+        "alt": "",
+        "title": "ornucopia",
+        "desc": ""
+    },
+    {
+        "id": 6,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/selfawaresystem.jpg",
+        "alt": "",
+        "title": "Self-aware System",
+        "desc": ""
     }
 ]
