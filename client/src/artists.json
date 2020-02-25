@@ -1,9 +1,9 @@
 [
     {
-        "id": 0,
-        "name": "",
-        "img": "",
-        "title": "",
-        "desc": ""
+        "id": 1,
+        "name": "Mike",
+        "img": "./assets/g23d.png",
+        "title": "Stuff N' Thangs",
+        "desc": "just some stuff... and thangs."
     }
 ]
