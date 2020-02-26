@@ -7,7 +7,7 @@ export class Nav extends Component {
             <div>
                 <Navbar fixed="bottom" expand="md" variant="dark" bg="dark">
                     <Container>
-                        <Navbar.Brand href="/LoginPage"><Image src="/assets/logo1.png" /></Navbar.Brand>
+                        <Navbar.Brand href="/LoginPage"><Image src="/assets/logo2.png" /></Navbar.Brand>
                     </Container>
                 </Navbar>
             </div>
