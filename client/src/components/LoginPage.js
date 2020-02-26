@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './LoginPage.scss';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
 export class LoginPage extends Component {
     render() {
         return (
-            <Container>
+        <Container>
                 <Row>
                     <Col md={12}>
                         <div className="loginwindow">
@@ -23,14 +23,15 @@ export class LoginPage extends Component {
                             <label for="password" className="form__label">password</label>
                         </div>
                         <div>
-                            <Router>
+                            
                             <Link to="/Main">Join</Link>
-                            </Router>
+                            
                         </div>
                         </div>
                     </Col>
                 </Row>
-            </Container>
+        </Container>
+        
         )
     }
 }
