@@ -13,7 +13,7 @@ export class Main extends Component {
                         </div>                        
                     </Col>
                     <Col md={8}>
-                        <div>
+                        <div className="artistcard">
                             <ArtistCard />
                         </div>                        
                     </Col>
