@@ -46,5 +46,125 @@
         "alt": "",
         "title": "Self-aware System",
         "desc": ""
+    },
+    {
+        "id": 7,
+        "name": "David Ho",
+        "img": "./assets/dh2.jpg",
+        "alt": "",
+        "title": "Looking Inward",
+        "desc": ""
+    },
+    {
+        "id": 8,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/quantum.jpg",
+        "alt": "",
+        "title": "Quantum Conciousness",
+        "desc": ""
+    },
+    {
+        "id": 9,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/Atomic_mystery1.jpg",
+        "alt": "",
+        "title": "Atomic Mystery",
+        "desc": ""
+    },
+    {
+        "id": 10,
+        "name": "Brom",
+        "img": "./assets/BromYevabog.jpg",
+        "alt": "",
+        "title": "Yevabog",
+        "desc": ""
+    },
+    {
+        "id": 11,
+        "name": "Brom",
+        "img": "./assets/BromVeles.jpg",
+        "alt": "",
+        "title": "Veles",
+        "desc": ""
+    },
+    {
+        "id": 12,
+        "name": "David Ho",
+        "img": "./assets/dh3.jpg",
+        "alt": "",
+        "title": "Perhaps Man Created God",
+        "desc": ""
+    },
+    {
+        "id": 13,
+        "name": "Chris Mars",
+        "img": "./assets/chrismars1.jpg",
+        "alt": "",
+        "title": "Hanford #12",
+        "desc": ""
+    },
+    {
+        "id": 14,
+        "name": "Brom",
+        "img": "./assets/BromHorse.jpg",
+        "alt": "",
+        "title": "The Night Mare",
+        "desc": ""
+    },
+    {
+        "id": 15,
+        "name": "Brom",
+        "img": "./assets/BromWitchHorn.jpg",
+        "alt": "",
+        "title": "WitchHorn",
+        "desc": ""
+    },
+    {
+        "id": 16,
+        "name": "Brom",
+        "img": "./assets/BromPoisonIvy.jpg",
+        "alt": "",
+        "title": "Poison Ivy",
+        "desc": ""
+    },
+    {
+        "id": 17,
+        "name": "Maggie Taylor",
+        "img": "./assets/Oh-happy-day_2009_6.jpg",
+        "alt": "",
+        "title": "Oh, Happy Day!",
+        "desc": ""
+    },
+    {
+        "id": 18,
+        "name": "Maggie Taylor",
+        "img": "./assets/Disappearing-witness_2009_7.jpg",
+        "alt": "",
+        "title": "Disappearing Witness",
+        "desc": ""
+    },
+    {
+        "id": 19,
+        "name": "Maggie Taylor",
+        "img": "./assets/The-beacon_2009_10.jpg",
+        "alt": "",
+        "title": "The Beacon",
+        "desc": ""
+    },
+    {
+        "id": 20,
+        "name": "Maggie Taylor",
+        "img": "./assets/Only-on-Thursdays.jpg",
+        "alt": "",
+        "title": "Only on Thursdays",
+        "desc": ""
+    },
+    {
+        "id": 21,
+        "name": "Maggie Taylor",
+        "img": "./assets/Contrariwise.jpg",
+        "alt": "",
+        "title": "Contrariwise",
+        "desc": ""
     }
 ]
