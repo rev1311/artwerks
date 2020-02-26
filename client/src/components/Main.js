@@ -8,16 +8,16 @@ export class Main extends Component {
         return (
             <Container>
                 <Row>
-                    <Col md={2}>
+                    <Col md={3}>
                         <div>
                         </div>                        
                     </Col>
-                    <Col md={8}>
+                    <Col md={6}>
                         <div className="artistcard">
                             <ArtistCard />
                         </div>                        
                     </Col>
-                    <Col md={2}>
+                    <Col md={3}>
                         <div>
                         </div>                        
                     </Col>
@@ -28,4 +28,4 @@ export class Main extends Component {
     }
 }
 
-export default Main
+export default Main;
