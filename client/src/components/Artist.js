@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import mainseeds from '../mainseeds.json';
 import { Container, Row, Col } from 'react-bootstrap';
-
 
 
 export class Artist extends Component {

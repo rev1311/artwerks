@@ -23,10 +23,10 @@ class ArtistCard extends Component {
             <div>
             
                 <Card className="bg-dark text-white" key={art.id} style={{ margin: "20px", fontFamily: 'Cinzel', boxShadow: "-1px 0 5px 0 rgba(0, 0, 0, .7)" }}>
-                    <Card.Img src={art.img} alt={art.alt} />
+                    <Card.Img src={art.img} alt={art.alt} style={{  }} />
                     <Card.ImgOverlay>
                     <Card.Title style={{ margin: "-2px" }}>{art.title}</Card.Title>
-                    <Card.Text>Artist: {art.name}</Card.Text>
+                    <Card.Title>Artist: {art.name}</Card.Title>
                     </Card.ImgOverlay>
                 </Card>
                 
