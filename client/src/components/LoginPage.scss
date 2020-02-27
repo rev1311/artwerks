@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-html {
-  background-image: url('%PUBLIC_URL%/assets/g23d.png') no-repeat center center fixed;
-  background-size: cover;
-}
-
 .loginwindow {
     text-align: center;
     font-family: 'Montserrat';
@@ -15,13 +10,11 @@ html {
     justify-content: center;
     text-align: center;
     width: 400px;
-    background: #222;
 }
 
 .btn {
   float: right;
   margin: 5px;
-  background-color: #222;
 }
 
 $primary: #11998e;
