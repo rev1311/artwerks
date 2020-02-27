@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import './LoginPage.scss';
 import { Link } from 'react-router-dom';
 
@@ -22,10 +22,9 @@ export class LoginPage extends Component {
                             <input type="password" className="form__field" placeholder="Password" name="password" id='password' required />
                             <label for="password" className="form__label">password</label>
                         </div>
-                        <div>
-                            
-                            <Link to="/Main">Join</Link>
-                            
+                        <div className="btn">
+                            <Link to="/Main"><Button variant="outline-info">Login</Button></Link>
+                            <Link to="/Main"><Button variant="outline-info">Join</Button></Link>
                         </div>
                         </div>
                     </Col>
