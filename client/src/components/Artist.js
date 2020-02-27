@@ -5,12 +5,14 @@ import seeds from '../mainseeds.json';
 
 class Artist extends Component {
     state = {
-        id: 0,
+        id: this.props.id,
         seeds
     }
     componentDidMount () {
         const { handle } = this.props.match.params
         const { id } = this.props.location.state
+
+        fetch(``)
 
     }
 
@@ -24,7 +26,7 @@ class Artist extends Component {
                     </Col>
                     <Col md={8}>
                         <div className="artist">
-                            <p>Name: {this.props.seeds.id}</p>
+                            <h1 style={{ color: "#fff" }}>Artist test {this.state.id}</h1>
                         </div>                        
                     </Col>
                     <Col md={2}>
