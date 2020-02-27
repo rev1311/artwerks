@@ -15,11 +15,11 @@ export class LoginPage extends Component {
                             {/* <img src="./assets/logo1.png" alt="ArtWerkS Logo" /> */}
 
                         <div className="form__group field loginwindow">
-                            <input type="input" className="form__field" placeholder="Name" name="name" id='name' required />
+                            <input type="input" className="form__field" placeholder="Name" name="name" id='name' required autocomplete="off" />
                             <label for="name" className="form__label">username</label>
                         </div>
                         <div className="form__group field loginwindow">
-                            <input type="password" className="form__field" placeholder="Password" name="password" id='password' required />
+                            <input type="password" className="form__field" placeholder="Password" name="password" id='password' required autocomplete="off" />
                             <label for="password" className="form__label">password</label>
                         </div>
                         <div className="btn">
