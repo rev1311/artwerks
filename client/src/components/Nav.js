@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Image } from 'react-bootstrap';
 
 export class Nav extends Component {
     render() {
         return (
-            <div>
-                <Navbar fixed="bottom" expand="md" variant="dark" bg="dark">
-                    <Container>
-                        <Navbar.Brand href="/Main"><Image src="/assets/logo2.png" /></Navbar.Brand>
-                    </Container>
-                </Navbar>
+            <div className="foot">
+                <img src="./assets/logo2.png" style={{ position: "fixed", center: "0", bottom: "0" }} />
             </div>
         )
     }
