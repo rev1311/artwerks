@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import seeds from '../mainseeds.json';
 
 
-export class Artist extends Component {
+class Artist extends Component {
+    state = {
+        id: 0,
+        seeds
+    }
+    componentDidMount () {
+        const { handle } = this.props.match.params
+        const { id } = this.props.location.state
 
+    }
 
     render() {
-        const artist = [...this.state.mainseeds]
         return (
             <Container>
                 <Row>
@@ -16,7 +24,7 @@ export class Artist extends Component {
                     </Col>
                     <Col md={8}>
                         <div className="artist">
-                            <Artist key={artist.id}/>
+                            <p>Name: {this.props.seeds.id}</p>
                         </div>                        
                     </Col>
                     <Col md={2}>
