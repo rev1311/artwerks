@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import mainseeds from '../mainseeds.json';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class ArtistCard extends Component {
     state = {
@@ -21,7 +22,12 @@ class ArtistCard extends Component {
             artworks.map(art => {
                 return (
             <div>
-            
+                <Link to={{
+                    pathname: `/Artist/${art.id}`,
+                    state: {
+                        id: `${art.id}`
+                    }
+                }}>
                 <Card className="bg-dark text-white" key={art.id} style={{ margin: "20px", fontFamily: 'Cinzel', boxShadow: "-1px 0 5px 0 rgba(0, 0, 0, .7)" }}>
                     <Card.Img src={art.img} alt={art.alt} style={{  }} />
                     <Card.ImgOverlay>
@@ -29,6 +35,7 @@ class ArtistCard extends Component {
                     <Card.Title>Artist: {art.name}</Card.Title>
                     </Card.ImgOverlay>
                 </Card>
+                </Link>
                 
             </div>
         )
