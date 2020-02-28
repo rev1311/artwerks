@@ -9,7 +9,7 @@ module.exports = {
         
         ];
 
-        res.render('pages/events', { events });
+        // res.render('pages/events', { events });
     
     }
 
