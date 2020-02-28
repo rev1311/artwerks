@@ -9,10 +9,7 @@ class Artist extends Component {
         seeds
     }
     componentDidMount () {
-        const { handle } = this.props.match.params
-        const { id } = this.props.location.state
 
-        fetch(``)
 
     }
 
