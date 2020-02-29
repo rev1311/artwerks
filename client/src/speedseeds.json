@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "unmykx",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Untitled",
+        "desc": ""
+    },
+    {
+        "id": 2,
+        "name": "David Ho",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Contemplations 6",
+        "desc": ""
+    },
+    {
+        "id": 3,
+        "name": "Chris Mars",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Day for Night",
+        "desc": ""
+    },
+    {
+        "id": 4,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Long Horse",
+        "desc": ""
+    },
+    {
+        "id": 5,
+        "name": "Alessandro Bavari",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Cornucopia",
+        "desc": ""
+    },
+    {
+        "id": 6,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Self-aware System",
+        "desc": ""
+    },
+    {
+        "id": 7,
+        "name": "David Ho",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Looking Inward",
+        "desc": ""
+    },
+    {
+        "id": 8,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Quantum Conciousness",
+        "desc": ""
+    },
+    {
+        "id": 9,
+        "name": "Daniel Martin Diaz",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Atomic Mystery",
+        "desc": ""
+    },
+    {
+        "id": 10,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Yevabog",
+        "desc": ""
+    },
+    {
+        "id": 11,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Veles",
+        "desc": ""
+    },
+    {
+        "id": 12,
+        "name": "David Ho",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Perhaps Man Created God",
+        "desc": ""
+    },
+    {
+        "id": 13,
+        "name": "Chris Mars",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Hanford #12",
+        "desc": ""
+    },
+    {
+        "id": 14,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "The Night Mare",
+        "desc": ""
+    },
+    {
+        "id": 15,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "WitchHorn",
+        "desc": ""
+    },
+    {
+        "id": 16,
+        "name": "Brom",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Poison Ivy",
+        "desc": ""
+    },
+    {
+        "id": 17,
+        "name": "Maggie Taylor",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Oh, Happy Day!",
+        "desc": ""
+    },
+    {
+        "id": 18,
+        "name": "Maggie Taylor",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Disappearing Witness",
+        "desc": ""
+    },
+    {
+        "id": 19,
+        "name": "Maggie Taylor",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "The Beacon",
+        "desc": ""
+    },
+    {
+        "id": 20,
+        "name": "Maggie Taylor",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Only on Thursdays",
+        "desc": ""
+    },
+    {
+        "id": 21,
+        "name": "Maggie Taylor",
+        "img": "./assets/bg1.jpg",
+        "alt": "",
+        "title": "Contrariwise",
+        "desc": ""
+    }
+]
