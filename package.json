@@ -1,0 +1,25 @@
+{
+  "name": "artwerks",
+  "version": "1.0.0",
+  "description": "Social media platform for artists, from novice to professional, to showcase and share their works.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "devkit": "concurrently -n 'server,client' -c 'green,cyan' \"nodemon server.js\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rev1311/artwerks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rev1311/artwerks/issues"
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
