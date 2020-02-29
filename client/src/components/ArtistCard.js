@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import mainseeds from '../mainseeds.json';
+import speedseeds from '../speedseeds.json';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -11,11 +11,11 @@ class ArtistCard extends Component {
         alt: "",
         title: "",
         desc: "",
-        mainseeds
+        speedseeds
     }
 
     render() {
-        const artworks = [...this.state.mainseeds];
+        const artworks = [...this.state.speedseeds];
         artworks.sort(() => Math.random() - 0.5);
 
         return (
