@@ -12,8 +12,6 @@ export class LoginPage extends Component {
                 <Row>
                     <Col sm={8} md={10} lg={10}>
                         <div className="loginwindow">
-                            {/* <img src="./assets/logo1.png" alt="ArtWerkS Logo" /> */}
-
                         <div className="form__group field loginwindow">
                             <input type="input" className="form__field" placeholder="Name" name="name" id='name' required autocomplete="off" />
                             <label for="name" className="form__label">username</label>
